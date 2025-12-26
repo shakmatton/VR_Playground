@@ -47,3 +47,10 @@ crashlytics-build.properties
 .idea/
 *.sln.iml
 *.sln.DotSettings.user
+
+# User-specific files (Rider/Visual Studio)
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.sln.DotSettings.user
