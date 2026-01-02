@@ -46,20 +46,39 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.2.12f1-x86_64\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\VRInteractions\Examples\Shared\Utilities\ExposableProperties\ExposePropertyAttribute.cs" />
+    <Compile Include="Assets\VRInteractions\Examples\Assets\Scripts\PistonLeverLink.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\VideoPlayerRenderTexture.cs" />
+    <Compile Include="Assets\VRInteractions\Scripts\VRGripper.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\Rotator.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\XRKnob.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\BooleanToggleVisualsController.cs" />
+    <Compile Include="Assets\MyScripts\MyStickRotation.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\RayAttachModifier.cs" />
+    <Compile Include="Assets\VRInteractions\Examples\Shared\Utilities\Actions\Trigger.cs" />
+    <Compile Include="Assets\MyScripts\PosicaoInicialVR.cs" />
+    <Compile Include="Assets\VRInteractions\Scripts\VRGrippedButton.cs" />
+    <Compile Include="Assets\VRInteractions\Examples\Assets\Scripts\Piston.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\XRPokeFollowAffordanceFill.cs" />
+    <Compile Include="Assets\VRInteractions\Examples\Shared\Utilities\ExposableProperties\ExposableMonobehavior.cs" />
+    <Compile Include="Assets\VRInteractions\Examples\Assets\Scripts\Bob.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\BezierCurve.cs" />
+    <Compile Include="Assets\VRInteractions\Examples\Assets\Scripts\Rotate.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\LaunchProjectile.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\HandSubsystemManager.cs" />
+    <Compile Include="Assets\VRInteractions\Examples\Assets\Scripts\FadeIn.cs" />
+    <Compile Include="Assets\VRInteractions\Examples\Assets\Scripts\LightController.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\DestroyObject.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\VideoTimeScrubControl.cs" />
+    <Compile Include="Assets\VRInteractions\Scripts\VRHandle.cs" />
+    <Compile Include="Assets\VRInteractions\Examples\Shared\Utilities\Actions\UnityAction.cs" />
+    <Compile Include="Assets\VRInteractions\Scripts\VRInteractable.cs" />
+    <Compile Include="Assets\VRInteractions\Scripts\VRLever.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\Callout.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\CalloutGazeController.cs" />
+    <Compile Include="Assets\VRInteractions\Scripts\VRButton.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\StepManager.cs" />
+    <Compile Include="Assets\VRInteractions\Examples\Assets\Scripts\ObjectSpawner.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\AnchorVisuals.cs" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
@@ -87,6 +106,7 @@
     <None Include="Assets\VRTemplateAssets\Shaders\TexturedStableFresnelCommon.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
     <None Include="Assets\VRTemplateAssets\Materials\Skybox\Horizontal Skybox.shader" />
+    <None Include="Assets\VRInteractions\ReadMe.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
     <Reference Include="UnityEngine">
       <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.12f1-x86_64\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
